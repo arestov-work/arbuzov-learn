@@ -1,6 +1,7 @@
 .beds-order__wrapper {
   display: flex;
   justify-content: center;
+  margin-bottom: 160px;
 }
 
 .beds-order {
@@ -126,7 +127,6 @@
         display: flex;
         column-gap: 8px;
         align-items: center;
-        // margin-bottom: 52px;
 
         .card__rating {
           display: flex;
@@ -196,4 +196,18 @@
       }
     }
   }
+}
+
+.beds-order__btn {
+  width: 35px;
+  height: 51px;
+  margin-top: 365px;
+}
+
+.beds-order__btn-back {
+  margin-right: 20px;
+}
+
+.beds-order__btn-forward {
+  margin-left: 20px;
 }
