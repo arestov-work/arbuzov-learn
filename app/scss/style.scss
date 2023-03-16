@@ -1,7 +1,14 @@
+@import "./header.scss";
+@import "./reset.scss";
+@import "./index/main-slider.scss";
+@import "./index/beds-order.scss";
+
 body {
-    background-color: black;
+  font-family: 'Exo 2', sans-serif;
 }
 
-p {
-   color: white; 
+.wrapper {
+  width: 1361px;
+  margin: 0 auto;
+  padding: 0 15px;
 }

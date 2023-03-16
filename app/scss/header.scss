@@ -1,0 +1,157 @@
+.navigation-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.navigation__list {
+  display: flex;
+  column-gap: 16px;
+
+  .navigation__link {
+    font-size: 16px;
+    font-weight: 400;
+    color: #481C04;
+    transition: 0.3s;
+
+    &:hover {
+      color: #F5D6B0;
+    }
+
+    &:active {
+      color: #C2A17A;
+    }
+  }
+}
+
+.tel-lang {
+  display: flex;
+  column-gap: 16px;
+
+  .tel__link {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+
+    color: #525E78;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.3s;
+
+    svg path {
+      stroke: #525E78;
+      transition: 0.3s;
+    }
+
+    &:hover {
+      color: #F5D6B0;
+    }
+
+    &:hover svg path {
+      stroke: #F5D6B0;
+    }
+
+    &:active {
+      color: #481C04;
+    }
+
+    &:active svg path {
+      stroke: #481C04;
+    }
+  }
+
+  .lang__btn {
+    color: #525E78;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.3s;
+
+    &:hover {
+      color: #F5D6B0;
+    }
+  }
+}
+
+.nav-main {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 40px;
+
+  .nav-main__logo {
+    margin-right: 129px;
+    display: flex;
+  }
+
+  .nav-main__catalog {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    padding: 9px 16px;
+    margin-right: 45px;
+
+    background-color: #C2A17A;
+    color: white;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: #481C04;
+    }
+  }
+
+  .nav-main__search {
+    display: flex;
+    max-width: 808px;
+    margin-right: 40px;
+    border: 1.2px solid #E8E8E8;
+    
+    .search__field {
+      padding: 15px 20px;
+      width: 735px;
+    }
+
+    .search__btn {
+      width: 56px;
+      height: auto;
+      background-color: #E8E8E8;
+      transition: 0.3s;
+    }
+
+    &:hover .search__btn {
+      background-color: #F5D6B0;
+    }
+  }
+
+  .liked-basket {
+    display: flex;
+    column-gap: 23px;
+
+    .liked-basket__wrapper {
+      position: relative;
+
+      .liked-basket__quantity {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        position: absolute;
+        top: -25%;
+        right: -25%;
+        width: 24px;
+        height: 24px;
+        color: white;
+        background-color: #C2A17A;
+        border-radius: 50%;
+      }
+
+      svg path {
+        stroke: #525E78;
+        transition: 0.3s;
+      }
+
+      &:hover svg path {
+        stroke: #C2A17A;
+      }
+    }
+  }
+}
