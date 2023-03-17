@@ -1,3 +1,75 @@
 .main-slider {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 650px;
+  background-color: #E2E3E8;
+
   margin-bottom: 160px;
+
+  .slider__card {
+    display: flex;
+    column-gap: 120px;
+    justify-content: center;
+    align-items: center;
+
+    width: 1361px;
+    padding: 0 15px;
+
+    .card__wrapper {
+      width: 471px;
+      position: relative;
+
+      .card__slider-lines {
+        position: absolute;
+        top: 0;
+        left: 5px;
+      }
+
+      .card__title {
+        position: relative;
+        color: #532B1B;
+        font-size: 56px;
+        font-weight: 800;
+        line-height: 140%;
+        margin-bottom: 16px;
+
+        z-index: 9;
+      }
+
+      .card__text {
+        color: #532B1B;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 140%;
+        margin-bottom: 56px;
+      }
+
+      .card__btn {
+        background-color: #C2A17A;
+        color: white;
+        padding: 14px 98px;
+        transition: 0.3s;
+        
+        &:hover {
+          background-color: #481C04;
+        }
+      }
+    }
+  }
+
+  .card__img {
+    position: relative;
+
+    .card__slider-lines {
+      position: absolute;
+      top: -23px;
+      left: -62px;
+    }
+
+    & img {
+      position: relative;
+      z-index: 9;
+    }
+  }
 }

@@ -1,5 +1,6 @@
 .footer {
   background-color: rgb(82, 93, 120);
+  position: relative;
 
   .footer__indent {
     margin-bottom: 45px;
@@ -98,10 +99,59 @@
   display: flex;
   column-gap: 110px;
 
-  .footer__nav__title {
+  .nav__title {
     color: #fff;
     text-transform: uppercase;
     font-size: 18px;
     margin-bottom: 40px;
   }
+
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+
+    .nav__link {
+ 
+
+      & a {     
+        text-decoration: underline;
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+        transition: 0.3s;
+
+        &:hover {
+          text-decoration: none;
+          color: #C2A17A;
+        }
+      }
+    }
+  }
+}
+
+.up-btn {
+  transform: rotate(270deg);
+
+  position: absolute;
+  right: 100px;
+  bottom: 110px;
+}
+
+.footer__pop-up {
+  color: white;
+  font-size: 16px;
+  text-align: left;
+
+  padding: 10px;
+
+  background-color: #C2A17A;
+  width: 303px;
+  height: 38px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 25px;
+
+  position: absolute;
+  right: 34px;
+  bottom: 0;
 }
