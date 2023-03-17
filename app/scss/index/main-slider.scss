@@ -67,9 +67,27 @@
       left: -62px;
     }
 
-    & img {
+    .img__main {
       position: relative;
       z-index: 9;
+    }
+
+    .img__discount {
+      position: absolute;
+      z-index: 10;
+      bottom: -20px;
+      right: -20px;
+    }
+
+    .discount__numbers {
+      font-size: 27px;
+      font-weight: 700;
+      color: white;
+      position: absolute;
+      z-index: 11;
+      bottom: 30px;
+      right: 15px;
+      transform: rotate(20deg);
     }
   }
 }
