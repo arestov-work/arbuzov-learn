@@ -116,3 +116,22 @@
 .projects__btn-forward {
   margin-left: 24px;
 }
+
+@media (max-width: 1480px) {
+  .projects {
+    position: relative;
+    margin-bottom: 265px;
+  }
+
+  .projects__btn-back {
+    position: absolute;
+    left: 45%;
+    bottom: -15%;
+  }
+
+  .projects__btn-forward {
+    position: absolute;
+    right: 45%;
+    bottom: -15%;
+  }
+}

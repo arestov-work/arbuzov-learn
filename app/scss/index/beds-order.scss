@@ -219,6 +219,7 @@
 
   .beds-order__wrapper {
     position: relative;
+    margin-bottom: 242px;
   }
 
   .beds-order__btn-back {
@@ -235,5 +236,14 @@
 
   .beds-order__btn {
     width: 52px;
+  }
+
+  .beds-order__slider .beds-order__card {
+    width: 387px;
+    height: 473px;
+  }
+
+  .beds-order__slider .beds-order__card .card__wrapper .card__image-display {
+    width: 365px;
   }
 }
