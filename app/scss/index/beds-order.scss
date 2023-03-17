@@ -211,3 +211,29 @@
 .beds-order__btn-forward {
   margin-left: 20px;
 }
+
+@media (max-width: 1480px) {
+  .beds-order {
+    width: 1220px;
+  }
+
+  .beds-order__wrapper {
+    position: relative;
+  }
+
+  .beds-order__btn-back {
+    position: absolute;
+    left: 45%;
+    bottom: -15%;
+  }
+
+  .beds-order__btn-forward {
+    position: absolute;
+    right: 45%;
+    bottom: -15%;
+  }
+
+  .beds-order__btn {
+    width: 52px;
+  }
+}
