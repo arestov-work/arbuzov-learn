@@ -1,6 +1,10 @@
 .projects {
   text-align: center;
   margin-bottom: 162px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .projects__text {
@@ -29,7 +33,6 @@
   font-weight: 800;
   line-height: 140%;
   padding-bottom: 56px;
-  // text-transform: uppercase;
 
   margin-bottom: 56px;
 }
@@ -37,6 +40,11 @@
 
 .projects__wrapper {
   display: flex;
+
+  .beds-order__btn {
+    margin-top: 230px;
+    height: 25px;
+  }
 }
 
 .projects__cards {
@@ -48,6 +56,7 @@
     background-color: #FAFAFA;
     width: 427px;
     height: 496px;
+    text-align: initial;
 
     .projects__container {
       display: flex;
@@ -60,7 +69,50 @@
       .container__date {
         display: flex;
         column-gap: 8px;
+
+        .date__numbers {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 140%;
+        }
       }
     }
   }
+}
+
+.container__title {
+  color: #481C04;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.projects__link {
+  color: #C2A17A;
+  border: 2px solid #C2A17A;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 125px;
+  transition: 0.3s;
+
+  &:hover {
+    color: white;
+    border: 2px solid #C2A17A;
+    background-color: #C2A17A;
+  }
+
+  &:active {
+    color: white;
+    border: 2px solid #481C04;
+    background-color: #481C04;
+  }
+}
+
+.projects__btn-back {
+  margin-right: 24px;
+}
+
+.projects__btn-forward {
+  margin-left: 24px;
 }
