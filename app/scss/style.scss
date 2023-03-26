@@ -7,19 +7,21 @@
 @import "./footer.scss";
 
 body {
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
 }
 
 .wrapper {
-  width: 1361px;
+  max-width: 1361px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
+.none {
+  display: none;
+}
+
 @media (max-width: 1480px) {
   .wrapper {
-    width: 1220px;
-    margin: 0 auto;
-    padding: 0 15px;
+    max-width: 1220px;
   }
 }
