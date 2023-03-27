@@ -155,3 +155,30 @@
   right: 34px;
   bottom: 0;
 }
+
+@media (max-width: 1375px) {
+  .up-btn {
+    right: 5px;
+  }
+}
+
+@media (max-width: 1214px) {
+  .footer__wrapper {
+    flex-direction: column;
+  }
+
+  .footer__info-company {
+    margin-left: 0;
+  }
+
+  .footer__nav {
+    margin-bottom: 89px;
+  }
+}
+
+@media (max-width: 614px) {
+  .footer__nav {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+}

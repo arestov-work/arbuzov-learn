@@ -9,7 +9,7 @@
   flex-direction: column;
   align-items: center;
 
-  width: 1361px;
+  max-width: 1361px;
   padding: 0 15px;
 }
 
@@ -41,10 +41,6 @@
 
     .beds-order__container {
       position: relative;
-
-      // .beds-order__img {
-      //   margin-bottom: 8px;
-      // }
 
       .beds-order__sale {
         position: absolute;
@@ -245,5 +241,84 @@
 
   .beds-order__slider .beds-order__card .card__wrapper .card__image-display {
     width: 365px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .beds-order__card:last-child {
+    display: none;
+  }
+
+  .beds-order__btn-back {
+    left: 42%;
+  }
+
+  .beds-order__btn-forward {
+    right: 42%;
+  }
+}
+
+@media (max-width: 845px) {
+  .beds-order__slider .beds-order__card {
+    width: 344px;
+  }
+
+  .beds-order__slider .beds-order__card .card__wrapper .card__image-display {
+    width: 324px;
+  }
+  
+  .beds-order__slider .beds-order__card .card__wrapper .card__title {
+    width: 321px;
+  }
+
+  .beds-order__slider {
+    column-gap: 20px;
+  }
+}
+
+@media (max-width: 744px) {
+  .beds-order__slider .beds-order__card {
+    width: 330px;
+    height: 444px;
+  }
+
+  .beds-order__slider .beds-order__card .card__wrapper .card__image-display {
+    width: 313px;
+  }
+
+  .beds-order__slider .beds-order__card .card__wrapper .card__title {
+    width: 307px;
+  }
+}
+
+@media (max-width: 710px) {
+  .beds-order__card:last-child {
+    display: block;
+  }
+
+  .beds-order__card:not(:last-child) {
+    display: none;
+  }
+
+  .beds-order__btn-back {
+    left: 20%;
+  }
+
+  .beds-order__btn-forward {
+    right: 20%;
+  }
+}
+
+@media (max-width: 450px) {
+  .beds-order__btn-back {
+    left: 10%;
+  }
+
+  .beds-order__btn-forward {
+    right: 10%;
+  }
+
+  .beds-order__title {
+    font-size: 35px;
   }
 }

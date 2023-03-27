@@ -134,4 +134,87 @@
     right: 45%;
     bottom: -15%;
   }
+
+  .projects__cards .projects__card {
+    width: 386px;
+  }
+
+  .projects__cards .projects__card .projects__container {
+    height: 226px;
+  }
+
+  .projects__link {
+    padding: 12px 110px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .projects__cards .projects__card:last-child {
+    display: none;
+  }
+
+  .projects__btn-back {
+    left: 42%;
+  }
+
+  .projects__btn-forward {
+    right: 42%;
+  }
+
+  .projects__cards {
+    column-gap: 20px;
+  }
+}
+
+@media (max-width: 845px) {
+  .projects__cards .projects__card {
+    width: 344px;
+  }
+
+  .projects__link {
+    padding: 12px 89px;
+  }
+}
+
+@media (max-width: 744px) {
+  .projects__cards .projects__card {
+    width: 330px;
+  }
+
+  .projects__link {
+    padding: 12px 82px;
+  }
+}
+
+@media (max-width: 710px) {
+
+  .projects__cards .projects__card:last-child {
+    display: block;
+  }
+
+  .projects__cards .projects__card:not(:last-child) {
+    display: none;
+  }
+
+  .projects__wrapper .beds-order__btn {
+    height: 109px;
+  }
+
+  .projects__btn-back {
+    left: 20%;
+  }
+
+  .projects__btn-forward {
+    right: 20%;
+  }
+}
+
+@media (max-width: 450px) {
+  .projects__btn-back {
+    left: 10%;
+  }
+
+  .projects__btn-forward {
+    right: 10%;
+  }
 }
