@@ -1,3 +1,5 @@
+const { tree } = require("gulp");
+
 const upBtn = document.querySelector('.up-btn');
 
 const btnShowMenu = document.querySelector('.btn__show-menu');
@@ -33,7 +35,7 @@ for (let i = 0; i < modalMenuClose.length; i++) {
   modalMenuClose[i].addEventListener('click', function() {
     modalMenu.classList.add('window-hidden');
     modalCategories.classList.add('window-hidden');
-    mainBody.style.overflow = 'scroll';
+    mainBody.style.overflow = 'auto';
   });
 }
 
@@ -43,3 +45,22 @@ for (let i = 0; i < selectHeader.length; i++) {
     selectArrow[i].classList.toggle('arrow-rotate');
   });
 }
+
+// ==============================================
+
+new Swiper('.image-slider', {
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  },
+
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'fraction',
+  },
+
+  slidesPerView: 1.5,
+
+  spaceBetween: 40,
+
+});
