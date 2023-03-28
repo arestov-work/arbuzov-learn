@@ -1,0 +1,59 @@
+.modal-categories {
+  width: 100%;
+  height: 882px;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  z-index: 999;
+  overflow: auto;
+
+}
+
+// ===========================
+
+.select__wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.select {
+  border-bottom: 1px solid #F2F1EE;
+}
+
+.select.is-active .select__body {
+  display: flex;
+}
+
+.select__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  .select__box {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+  }
+}
+
+.select__body {
+  display: none;
+  margin-left: 44px;
+
+  flex-direction: column;
+  row-gap: 16px;
+
+  margin-bottom: 16px;
+  margin-top: 24px;
+
+  & a {
+    color: #481C04;
+  }
+}
+
+.arrow-rotate {
+  transform: rotate(180deg);
+}
