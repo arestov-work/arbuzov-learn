@@ -1,20 +1,20 @@
-@import "./header.scss";
-@import "./reset.scss";
-@import "./index/main-slider.scss";
-@import "./index/beds-order.scss";
-@import "./index/choice.scss";
-@import "./index/projects.scss";
-@import "./footer.scss";
-@import "./modal-menu.scss";
-@import "./modal-categories.scss";
+@import './header.scss';
+@import './reset.scss';
+@import './index/main-slider.scss';
+@import './index/beds-order.scss';
+@import './index/choice.scss';
+@import './index/projects.scss';
+@import './footer.scss';
+@import './modal-menu.scss';
+@import './modal-categories.scss';
 
+@import './bed/catalog.scss';
 
-@import "./bed/catalog.scss";
-
-@import "./card/card.scss";
+@import './card/card.scss';
 
 body {
-  font-family: "Exo 2", sans-serif;
+  font-family: 'Exo 2', sans-serif;
+  backdrop-filter: blur(40px);
 }
 
 .wrapper {

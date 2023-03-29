@@ -22,7 +22,7 @@ function styles() {
     return src('app/scss/style.scss')
       .pipe(autoprefixer({overrideBrowserslist: ['last 10 version']}))
       .pipe(concat('style.min.css'))
-      .pipe(scss({outputStyle: 'compressed'}))
+      .pipe(scss({outputStyle: 'expanded'}))
       .pipe(dest('app/css'))
       .pipe(browserSync.stream())
 }

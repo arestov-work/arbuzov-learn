@@ -6,7 +6,6 @@
   top: 0;
   z-index: 999;
   overflow: auto;
-
 }
 
 // ===========================
@@ -17,7 +16,7 @@
 }
 
 .select {
-  border-bottom: 1px solid #F2F1EE;
+  border-bottom: 1px solid #f2f1ee;
 }
 
 .select.is-active .select__body {
@@ -50,7 +49,7 @@
   margin-top: 24px;
 
   & a {
-    color: #481C04;
+    color: #481c04;
   }
 }
 

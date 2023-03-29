@@ -27,11 +27,11 @@
     }
 
     &:hover svg path {
-      stroke: #481C04;
+      stroke: #481c04;
     }
 
     &:hover {
-      color: #481C04;
+      color: #481c04;
     }
   }
 }
@@ -45,7 +45,7 @@
     font-size: 32px;
     font-weight: 700;
     line-height: 140%;
-    color: #481C04;
+    color: #481c04;
     margin-bottom: 8px;
   }
 
@@ -57,10 +57,6 @@
 }
 
 .main-content {
-  max-width: 1656px;
-  padding-right: 15px;
-  margin-right: auto;
-
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
@@ -68,23 +64,114 @@
   min-width: 0;
 }
 
-// .image-slider {}
-
-.image-slider__image {
-  text-align: center;
-
-  & img {
-    max-width: 100%;
-  }
-}
-
-.swiper-container {
-  max-width: 823px;
-  // max-width: 223px;
-}
-
 @media (max-width: 500px) {
   .main-card .bread-crumbs {
     display: none;
   }
+}
+
+// .swiper-container {}
+
+.swiper {
+  max-width: 543px;
+  height: 497px;
+}
+
+.card {
+  background-color: black;
+  max-height: 300px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: -16px;
+
+  & svg path {
+    stroke: #c2a17a;
+    transition: 0.2s;
+  }
+
+  &:hover svg path {
+    stroke: #f5d6b0;
+  }
+
+  &:active svg path {
+    stroke: #481c04;
+    transition: 0s;
+  }
+}
+
+.swiper-button-prev {
+  left: -5px;
+}
+
+.swiper-button-next {
+  left: 72px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-pagination {
+  display: flex;
+  align-items: baseline;
+  margin-left: 35px;
+}
+
+.swiper-pagination-current {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.swiper-pagination-total {
+  font-size: 14px;
+}
+
+.swiper-navigation {
+  position: relative;
+}
+
+// =====================================
+
+.main-card-content {
+  max-width: 427px;
+
+  .content-title__box {
+    .content-title {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 140%;
+      letter-spacing: 0.01em;
+      color: #481c04;
+      margin-bottom: 16px;
+    }
+
+    .content-title__btn {
+      padding: 8px 16px;
+      background-color: #f6f6f6;
+      color: #481c04;
+    }
+  }
+
+  .content-materials__box {
+    .content-title {
+    }
+
+    .materials__box {
+      .upholstery-material {
+      }
+
+      .upholstery-color {
+      }
+    }
+  }
+}
+
+.main-card-price {
+  max-width: 282px;
 }

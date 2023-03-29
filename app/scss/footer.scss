@@ -75,7 +75,7 @@
 
     .mail-link {
       font-size: 14px;
-      color: #C2A17A;
+      color: #c2a17a;
       text-decoration: underline;
 
       &:hover {
@@ -112,9 +112,7 @@
     row-gap: 8px;
 
     .nav__link {
- 
-
-      & a {     
+      & a {
         text-decoration: underline;
         color: white;
         font-size: 16px;
@@ -123,7 +121,7 @@
 
         &:hover {
           text-decoration: none;
-          color: #C2A17A;
+          color: #c2a17a;
         }
       }
     }
@@ -145,7 +143,7 @@
 
   padding: 10px;
 
-  background-color: #C2A17A;
+  background-color: #c2a17a;
   width: 303px;
   height: 38px;
   border-top-left-radius: 10px;

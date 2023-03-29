@@ -14,16 +14,16 @@
 }
 
 .beds-order__text {
-  color: #C2A17A;
+  color: #c2a17a;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 140%;
 
-  border-bottom: 1px solid #C2A17A;
+  border-bottom: 1px solid #c2a17a;
 }
 
 .beds-order__title {
-  color: #481C04;
+  color: #481c04;
   font-size: 42px;
   font-weight: 800;
   line-height: 140%;
@@ -37,7 +37,7 @@
   .beds-order__card {
     width: 427px;
     height: 513px;
-    background-color: #FAFAFA;
+    background-color: #fafafa;
 
     .beds-order__container {
       position: relative;
@@ -64,7 +64,7 @@
         align-items: center;
 
         &:hover {
-          background-color: #FFF1E1;
+          background-color: #fff1e1;
         }
       }
     }
@@ -79,39 +79,39 @@
       .card__image-display {
         width: 395px;
         height: 1px;
-        background-color: #C2C2C2;
+        background-color: #c2c2c2;
         position: relative;
         margin-bottom: 16px;
-  
+
         &::after {
           position: absolute;
-          content: "";
+          content: '';
           left: 0;
           top: 0;
           width: 64px;
           height: 1px;
-          background-color: #481C04;
+          background-color: #481c04;
         }
       }
-  
+
       .card__image-display_next {
         position: relative;
-  
+
         &::after {
           position: absolute;
-          content: "";
+          content: '';
           left: 64px;
           top: 0;
           width: 64px;
           height: 1px;
-          background-color: #481C04;
+          background-color: #481c04;
         }
       }
-  
+
       .card__title {
         font-size: 20px;
         font-weight: 700;
-        color: #481C04;
+        color: #481c04;
         line-height: 140%;
         margin-bottom: 8px;
 
@@ -130,7 +130,7 @@
           align-items: center;
 
           .card__rating-num {
-            color: #481C04;
+            color: #481c04;
             font-size: 14px;
             font-weight: 700;
             line-height: 140%;
@@ -161,7 +161,7 @@
           font-size: 18px;
           font-weight: 400;
           line-height: 140%;
-          color: #481C04;
+          color: #481c04;
         }
 
         .card__price_old {
@@ -169,13 +169,13 @@
           font-size: 14px;
           font-weight: 400;
           line-height: 140%;
-          color: #C2C2C2;
+          color: #c2c2c2;
           position: relative;
 
           &::after {
             position: absolute;
-            content: "";
-            background-color: #C2C2C2;
+            content: '';
+            background-color: #c2c2c2;
             width: 100%;
             height: 1px;
             top: 40%;
@@ -266,7 +266,7 @@
   .beds-order__slider .beds-order__card .card__wrapper .card__image-display {
     width: 324px;
   }
-  
+
   .beds-order__slider .beds-order__card .card__wrapper .card__title {
     width: 321px;
   }
