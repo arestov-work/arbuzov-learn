@@ -1484,7 +1484,7 @@ legend {
 }
 
 .swiper-button-next {
-  left: 72px;
+  left: 75px;
 }
 
 .swiper-button-prev::after,
@@ -1496,6 +1496,8 @@ legend {
   display: flex;
   align-items: baseline;
   margin-left: 35px;
+  justify-content: flex-end;
+  width: 30px;
 }
 
 .swiper-pagination-current {
@@ -1632,6 +1634,10 @@ legend {
 }
 .main-card-content .content-materials__box .list-materials__box li::marker {
   color: #481c04;
+}
+.main-card-content .delivery-payment__wrapper {
+  display: flex;
+  column-gap: 39px;
 }
 
 .main-card-price {

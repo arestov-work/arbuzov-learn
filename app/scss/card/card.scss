@@ -109,7 +109,7 @@
 }
 
 .swiper-button-next {
-  left: 72px;
+  left: 75px;
 }
 
 .swiper-button-prev::after,
@@ -121,6 +121,8 @@
   display: flex;
   align-items: baseline;
   margin-left: 35px;
+  justify-content: flex-end;
+  width: 30px;
 }
 
 .swiper-pagination-current {
@@ -282,6 +284,11 @@
         }
       }
     }
+  }
+
+  .delivery-payment__wrapper {
+    display: flex;
+    column-gap: 39px;
   }
 }
 
