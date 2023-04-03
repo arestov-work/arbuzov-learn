@@ -1639,9 +1639,96 @@ legend {
   display: flex;
   column-gap: 39px;
 }
+.main-card-content .delivery-payment__wrapper .wrapper__opportunities {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
 
 .main-card-price {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
   max-width: 282px;
+}
+.main-card-price .card-price {
+  padding: 15px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  row-gap: 39px;
+}
+.main-card-price .card-price__box .card-price__wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  margin-bottom: 8px;
+}
+.main-card-price .card-price__box .card-price__wrapper .current__price {
+  color: #481c04;
+  font-size: 32px;
+  font-weight: 700;
+}
+.main-card-price .card-price__box .card-price__wrapper .old__price {
+  color: #858585;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+.main-card-price .card-price__box .installment__price {
+  color: #c2a17a;
+  font-size: 14px;
+  font-weight: 400;
+  border-bottom: 1px solid #c2a17a;
+  display: inline-block;
+  height: 23px;
+}
+.main-card-price .card-price__btn {
+  padding: 15px 32px;
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  background-color: #c2a17a;
+  color: white;
+  transition: 0.2s;
+}
+.main-card-price .card-price__btn:hover {
+  background-color: #f5d6b0;
+}
+.main-card-price .card-price__btn:active {
+  background-color: #481c04;
+}
+.main-card-price .card-consultation {
+  padding: 17px 16px 15px;
+  background-color: #f9f9f9;
+}
+.main-card-price .card-consultation .consultation__title {
+  color: #481c04;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.main-card-price .card-consultation .consultation__text {
+  color: #481c04;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.main-card-price .card-consultation .consultation__btn {
+  display: flex;
+  align-items: center;
+  column-gap: 7px;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 11px 12px;
+  background-color: #ffffff;
+  color: #c2a17a;
+  border: 2px solid #c2a17a;
+  transition: 0.2s;
+}
+.main-card-price .card-consultation .consultation__btn:hover {
+  background-color: #fff1e1;
+  border: 2px solid #fff1e1;
 }
 
 body {
