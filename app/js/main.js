@@ -58,5 +58,22 @@ new Swiper('.swiper', {
 
   slidesPerView: 1,
 
-  spaceBetween: 40
+  spaceBetween: 40,
+
+  breakpoints: {
+    460: {
+      slidesPerView: 1,
+      spaceBetween: 40
+    },
+
+    961: {
+      slidesPerView: 2,
+      spaceBetween: 40
+    },
+
+    1200: {
+      slidesPerView: 1,
+      spaceBetween: 40
+    }
+  }
 })
