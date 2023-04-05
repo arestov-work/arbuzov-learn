@@ -2229,6 +2229,13 @@ legend {
     align-items: flex-start;
   }
 }
+@media (max-width: 1144px) {
+  .review-block__wrapper {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+  }
+}
 @media (max-width: 960px) {
   .swiper {
     max-width: 930px;
@@ -2256,6 +2263,19 @@ legend {
   .swiper {
     max-width: 380px;
     height: 360px;
+  }
+}
+@media (max-width: 555px) {
+  .cards-tabs__wrapper .tabs__wrapper .tabs__btn {
+    font-size: 16px;
+  }
+}
+@media (max-width: 500px) {
+  .tabs__btn:last-child {
+    display: none;
+  }
+  .content--specifications .specifications__list .specifications__point {
+    font-size: 14px;
   }
 }
 @media (max-width: 444px) {
